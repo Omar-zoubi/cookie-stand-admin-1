@@ -83,7 +83,7 @@ const [storedValues, setStored] = useState('')
           </form>
     
          <section className="text=center p-10">
-         <p className='m-5 text-gray-600'>Report Table coming soon .....</p>
+         <p className='m-5 text-gray-600'>Report Table coming soon ......</p>
           <p className="m-3">{JSON.stringify(storedValues)}</p>
           </section>
         </main>
