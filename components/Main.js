@@ -1,57 +1,3 @@
-// // import Link from 'next/link'
-// import { useState } from "react"
-// import Result from './Result'
-
-
-
-
-// export default function Main() {
-//     const [location, setLocation] = useState('omar');
-//     const [MinCST, setMinCST] = useState(0);
-//     // const [location, setLocation] = useState('');
-//     // const [location, setLocation] = useState('');
-
-
-//     console.log('----', location);
-//     console.log('----', MinCST);
-
-
-//     const handleChange = e => {
-//         const value = e.target.value;
-//         setLocation(value);
-//     }
-
-//     const handleChangeMin = e => {
-//         const min = e.target.value;
-//         setMinCST(min);
-//     }
-
-
-            
-        
-//         return (
-//             <nav>
-//             <form>
-//                 <label>location</label>
-//                 <input name="location" type="text" placeholder="parcalona" onChange={handleChange} /> <br />
-//                 <label>Min Cst PerHour </label>
-//                 <input name="Min-CST" type="text" placeholder="1" onChange={handleChangeMin} />
-//                 <label>Max CST PerHour </label>
-//                 <input name="max-CST" type="text" placeholder="2" />
-//                 <label>AVG cookies </label>
-//                 <input name="avg-CST" type="text" placeholder="1.2" />
-//                 <button name="Create" type="submit" >Create</button>
-//             </form>
-//             <p>Report Table comming soon .....</p>
-
-//             <Result location={location}
-//                 min={MinCST} />
-
-//         </nav>
-
-//     )
-// }
-
 import React, { useState} from 'react';
 import "tailwindcss/tailwind.css"
 export default function CookieStandForm() {
@@ -89,5 +35,4 @@ const [storedValues, setStored] = useState('')
         </main>
 
     )
-   
 }
